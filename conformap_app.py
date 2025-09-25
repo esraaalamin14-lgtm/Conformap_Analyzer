@@ -6,6 +6,13 @@ import sympy as sp
 st.set_page_config(page_title="ConforMap Analyzer", layout="wide")
 
 st.title("🔷 ConforMap Analyzer")
+st.markdown("""
+<div style='background-color:#f0f0f5; padding:10px; border-radius:10px'>
+    <h4 style='color:#333;'>🔬 Developed by <strong>Esraa</strong> from 🇱🇾 Libya</h4>
+    <p style='font-size:14px;'>This tool visualizes Möbius transformations in complex analysis.<br>
+    Built for researchers, students, and curious minds.</p>
+</div>
+""", unsafe_allow_html=True)
 st.subheader("Visualize conformal mappings in the complex plane")
 
 st.markdown("Enter a Möbius transformation of the form: `f(z) = (az + b)/(cz + d)`")
